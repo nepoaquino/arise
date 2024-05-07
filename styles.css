@@ -4,7 +4,15 @@ body {
 }
 
 body {
-  padding-top: 50px;
+  padding-top: 25px;
+  max-width: 2000px !important; /* Adjust this value as needed */
+  margin-right: auto;
+  margin-left: auto;
+}
+#navigation {
+  max-width: 2000px !important; /* Adjust this value as needed */
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #navigation {
@@ -12,6 +20,9 @@ body {
 }
 
 @media (max-width: 991.98px) {
+  body {
+    padding-top: 5px;
+  }
   .offcanvas-collapse {
     position: fixed;
     top: 70px; /* Height of navbar */
@@ -31,7 +42,7 @@ body {
   }
 }
 
-#main1 {
+/* #main1 {
   border: 1px solid red;
 }
 
@@ -45,4 +56,4 @@ body {
 
 #main4 {
   border: 1px solid yellow;
-}
+} */
