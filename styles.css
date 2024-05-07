@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
@@ -5,18 +11,9 @@ body {
 
 body {
   padding-top: 25px;
-  max-width: 2000px !important; /* Adjust this value as needed */
-  margin-right: auto;
-  margin-left: auto;
 }
-#navigation {
-  max-width: 2000px !important; /* Adjust this value as needed */
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#navigation {
-  border: 1px solid red !important;
+.container-fluid {
+  max-width: 2000px;
 }
 
 @media (max-width: 991.98px) {
@@ -42,7 +39,21 @@ body {
   }
 }
 
-/* #main1 {
+.dropdown-menu svg,
+.theme-icon-active use {
+  fill: white;
+}
+
+#theme_svg,
+svg {
+  width: 25px;
+  height: 25px;
+}
+
+/* #navigation {
+  border: 1px solid red;
+}
+#main1 {
   border: 1px solid red;
 }
 
