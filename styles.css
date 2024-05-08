@@ -10,27 +10,24 @@ body {
 }
 
 body {
-  padding-top: 25px;
+  padding-top: 30px;
 }
 .container-fluid {
   max-width: 2000px;
 }
 
 @media (max-width: 991.98px) {
-  body {
-    padding-top: 5px;
-  }
   .offcanvas-collapse {
     position: fixed;
-    top: 70px; /* Height of navbar */
+    top: 58px; /* Height of navbar */
     bottom: 0;
     left: 100%;
-    width: 100%;
+    width: 50%;
     padding-right: 1rem;
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #343a40;
+    background-color: #1b1c1e;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
   }
   .offcanvas-collapse.open {
@@ -50,7 +47,7 @@ svg {
   height: 25px;
 }
 
-/* #navigation {
+#navigation {
   border: 1px solid red;
 }
 #main1 {
@@ -67,4 +64,4 @@ svg {
 
 #main4 {
   border: 1px solid yellow;
-} */
+}
