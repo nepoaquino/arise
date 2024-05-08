@@ -13,7 +13,7 @@ body {
   padding-top: 30px;
 }
 .container-fluid {
-  max-width: 2000px;
+  max-width: 3000px;
 }
 
 @media (max-width: 991.98px) {
